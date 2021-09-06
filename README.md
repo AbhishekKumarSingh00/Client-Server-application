@@ -6,18 +6,18 @@ Simple implemention of concurrent day-time client-server application
 # ALGORITHM
 
 - server()
-  ●	Create UDP socket
-  ●	Bind socket to address
-  ●	Wait for datagram from client
-  ●	Process and reply to client request
-  ●	Repeat while server is active
+	- Create UDP socket
+  - Bind socket to address
+  - Wait for datagram from client
+  - Process and reply to client request
+  - Repeat while server is active
 
 - client()
-  ●	Create UDP socket
-  ●	Send request to server
-  ●	Wait for datagram from server
-  ●	Process and reply from server
-  ●	Close socket and exit
+  - Create UDP socket
+  - Send request to server
+  - Wait for datagram from server
+  - Process and reply from server
+  - Close socket and exit
 
 
 # Screenshots
