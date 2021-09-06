@@ -1,2 +1,2 @@
 # Client-Server-application
-simple implemention of concurrent day-time client-server application
+Simple implemention of concurrent day-time client-server application
